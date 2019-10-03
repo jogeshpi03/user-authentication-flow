@@ -2,7 +2,7 @@
 
 Aim of this repository is to make basic understand of how the user authentication works. You can find more details on my [blog post](https://webomnizz.com/react-navigation-switch-navigator-and-authentication-flow/).
 
-![Authentication Flow Gif](https://webomnizz.com/wp-content/uploads/2019/09/auth-flow.gif)
+[![Authentication Flow Gif](https://i.ytimg.com/vi/W2ZodOXowXA/hqdefault.jpg)](https://youtu.be/W2ZodOXowXA)
 
 Requirements
 * [expo-cli](https://facebook.github.io/react-native/docs/getting-started)
