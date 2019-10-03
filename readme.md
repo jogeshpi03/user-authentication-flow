@@ -11,3 +11,16 @@ Requirements
 * [React Navigation Tabs](https://github.com/react-navigation/tabs)
 
 Navigate the project directory and run ```npm install```. After downloading the required packages run ```npm start```.
+
+> Please don't forget to update the API codes to **/src/screens/auth/SigninScreen.js**
+
+```js
+const response = await fetch(`https://c282a758.ngrok.io/api/login`, {
+    method: 'POST', 
+    headers: {
+        'Accept': 'application/json',
+        'Content-Type': 'application/x-www-form-urlencoded'
+    }, 
+    body: formData
+})
+```

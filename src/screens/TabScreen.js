@@ -1,33 +1,12 @@
 import React from 'react'
-import { View, Text, AsyncStorage, StyleSheet } from 'react-native'
+import { AsyncStorage } from 'react-native'
 import { Ionicons, SimpleLineIcons } from '@expo/vector-icons'
 import { createBottomTabNavigator } from 'react-navigation-tabs'
 
-const HomeScreen = () => {
-    return (
-        <View style={style.container}>
-            <Text>Home Screen</Text>
-        </View>
-    );
-}
-  
-const SettingScreen = () => {
-    return (
-        <View style={style.container}>
-            <Text>Settings Screen</Text>
-        </View>
-    );
-}
+import HomeScreen from './HomeScreen';
+import SettingScreen from './SettingScreen';
 
 const SignoutScreen = () => {}
-
-const style = StyleSheet.create({
-    container: {
-        flex: 1, 
-        justifyContent: 'center', 
-        alignItems: 'center'
-    }
-});
 
 export const TabScreen = createBottomTabNavigator({
     Home: {
